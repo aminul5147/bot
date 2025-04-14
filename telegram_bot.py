@@ -40,7 +40,7 @@ async def restrict_user(update: Update, context: ContextTypes.DEFAULT_TYPE):
             )
             await context.bot.send_message(
                 chat_id=chat.id,
-                text=f"Hello {user.full_name}
+                text=f"Hello {user.full_name}"
 
 "
                      f"আপনার টেলিগ্রাম নামের সাথে যুত্ত করুন: TABD🇧🇩
